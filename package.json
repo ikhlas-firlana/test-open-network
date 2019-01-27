@@ -4,6 +4,7 @@
   "description": "for testing heroku",
   "main": "main.js",
   "scripts": {
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ikhlas-firlana/test-open-network/issues"
   },
-  "homepage": "https://github.com/ikhlas-firlana/test-open-network#readme"
+  "homepage": "https://github.com/ikhlas-firlana/test-open-network#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
